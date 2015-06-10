@@ -1,0 +1,32 @@
+npm install -g generator-meanjs
+
+yo meanjs:
+facade -- thin wrapping of abstraction over 
+localstorage --stays for ever 
+sessionstorage-- not based on the window session but on tab session 
+   three different tabs will have different storages 
+   based on tab storage 
+sessioncookie -- stored as long as browser window is opened all the windows 
+will be shared across all the different windows until the window is closed
+cookiestorage
+
+4)facade for web socket for client directly against api 
+frameworks like socket 
+5) ajx -ovrhead in req and response http packets -1200 bytes for evryclient server transfer 
+minimum 500 - 800 msec per request response so limited in capabulity 
+for the first time it will be 1200 bytes for web socket as well but or web sockets 
+once the connection is established web sockets will be kept open web socke header is 8  bytes 
+50 - 100 msec latency for round trip for web sockets 
+
+http 1.0 full page reload -- 20 secs 
+ajax -- 1/2 secs to get response back 
+web sockets -- 100 or less milli seconds 
+more resource on the server , soket.emit ,soket.on-- both on client an server
+server can do only broadcast
+
+node -- tendency to think anything written in javascript has to be javascript 
++
+
+generator-angular-fullstack 
+generator-mean-stack
+generator-meanie
