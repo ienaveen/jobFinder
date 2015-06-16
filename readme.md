@@ -94,7 +94,10 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
     
     34)Type git remote and check for both heroku and github 
     
-    
+    35) login to codeship.io with ie.naveen@gmail.com g777& and create first project select github repository and 
+       select the jobFinder drop down -->select node 
+       
+    36)   
     create a new repository on the command line
          GIT hub instructions 
     echo # jobFinder >> README.md
