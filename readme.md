@@ -34,7 +34,7 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
      9)git push heroku master 
      10) heroku ps:scale web=1
      
-     
+     once u type these commands the output can be seen in https://peaceful-island-7943.herokuapp.com/
      all apps uses processmodel inorder to have the app running we need to up the 
        scale to 1 
        heroku ps:scale web=1 
@@ -84,9 +84,9 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
     32)login to https://github.com/new github site to create a new repository and copy the url in the next step 
     https://github.com/ienaveen/jobFinder.git
     
-    33) 
+    33) git remote add github  https://github.com/ienaveen/jobFinder.git
     
-    
+    34)Type git remote and check for both heroku and github 
     
     
     create a new repository on the command line
