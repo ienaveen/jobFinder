@@ -34,6 +34,12 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
      9)git push heroku master 
      10) heroku ps:scale web=1
      
+     inorder to recommit code 
+     1)git add -A 
+     2)git commit -m "root"
+     3)git push heroku master 
+     4)heroku ps:scale web=1
+     
      once u type these commands the output can be seen in https://peaceful-island-7943.herokuapp.com/
      all apps uses processmodel inorder to have the app running we need to up the 
        scale to 1 
