@@ -28,13 +28,13 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
        3)git add -A 
        4)git config --global user.email "ie.naveen@gmail.com"
        5) git config --global user.name "k naveen" 
-       
        6) git commit -m "root"
        7) heroku login 
-       
-     8)heroku create 
+       8)heroku create 
      9)git push heroku master 
-     10) heroku ps:scale web=1 
+     10) heroku ps:scale web=1
+     
+     
      all apps uses processmodel inorder to have the app running we need to up the 
        scale to 1 
        heroku ps:scale web=1 
@@ -52,7 +52,67 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
        13) create a file with name mongod and keep the content as mongod --bind_IP=$IP --db-path=data --nojournal --rest "$@"
     14) change the permisions on the mongod file by giving chmod a+x mongod in the command 
     15)npm install mongoose 
-     
+    16) bower components are stored in the location where a filer named .bowerrc file will point the public/bower_components 
+    17)npm install mocha -g  and type mocha to start the test 
+    18) as u start writing tests try typing mocha at regular intervals to check the outcome 
+    19)chai is the assertion library that gives the expect functionality
+    20) npm install --save-dev chai 
+    21) var expect = require("chai").expect
+    22) mongoose call is asyncronous and test is syncronous 
+       and test finishes before mongoose callback .
+        so mocha solves it by then parameter
+    23) call the seedJobs after reset .pass a callback to check that the 
+     function is done .for now call the callback after the last job create Create        
+    24) Instead of using the promise apis an alternative is to pass the function 
+    itself to other calling function as a paramter and then after the function 
+    call is successful then again call the callback function
+    25)after last seed job create is successful call the callback   
+    26)AMong all the promise apis bech marks show that blue bird is the 
+     fastest and it is similar to promise api 
+    27) npm install --save bluebird  
+      wrap a function in a promise using promisify 
+    28) this.timeout(100000); must be written in the mocha test for it section so 
+    the tests will not be timed out 
+    29)for all ayncronous we need to keep the done as the last paramter and call the done at end 
+    30) if we use exports.findJobs in a module and try to call the same findJobs inside the module it will
+      give an error so write a var findJobs = function() and 
+      ====then write exports.findJobs = findJobs================
+    31) running tests ,sending emails when tests fail ,if all pass deploy to heroku 
+      bdd ,test first ,supertest to mock a client to call the jobs api on the backend 
+      jobs API -- to make the tests pass 
+      angular testing using karma which will test the code on front end 
+    32)login to https://github.com/new github site to create a new repository and copy the url in the next step 
+    https://github.com/ienaveen/jobFinder.git
+    
+    33) 
+    
+    
+    
+    
+    create a new repository on the command line
+         GIT hub instructions 
+    echo # jobFinder >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin https://github.com/ienaveen/jobFinder.git
+    git push -u origin master
+    …or push an existing repository from the command line
+
+
+    git remote add origin https://github.com/ienaveen/jobFinder.git
+    git push -u origin master
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
                                 
                                 
                                 

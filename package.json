@@ -9,11 +9,15 @@
   "author": "Naveen",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.30",
     "bower": "^1.4.1",
     "development": "0.0.6",
     "express": "^4.12.4",
     "jade": "^1.10.0",
     "mongoose": "^4.0.5",
     "nodemon": "^1.3.7"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0"
   }
 }
