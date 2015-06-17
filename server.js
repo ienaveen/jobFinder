@@ -16,7 +16,7 @@ app.get('*',function(req,res){
      res.render('index');
 });     
 //mongoose.connect('mongodb://localhost/jobfinder');
-  jobsData.connectDB('mongodb://nave:naveen@ds031571.mongolab.com:31571/jobfinder')
+  jobsData.connectDB('mongodb://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
   .then(function(){
     console.log("mongodb connected");
     jobsData.seedJobs();  
