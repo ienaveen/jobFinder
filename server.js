@@ -15,8 +15,8 @@ app.get('/api/jobs',function(req,res){
 app.get('*',function(req,res){
      res.render('index');
 });     
-mongoose.connect('mongodb://localhostkkkkk/jobfinder');
-  //jobsData.connectDB('mongodb://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
+//mongoose.connect('mongodb://localhostkkkkk/jobfinder');
+  jobsData.connectDB('mongodb://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
   .then(function(){
     console.log("mongodb connected");
     jobsData.seedJobs();  
