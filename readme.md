@@ -97,7 +97,44 @@ http://nodejsrocks.blogspot.ca/2012/04/need-reasons-to-love-jade-template.html
     35) login to codeship.io with ie.naveen@gmail.com g777& and create first project select github repository and 
        select the jobFinder drop down -->select node 
        
-    36)   
+    36) commit all the changes 
+          1)git add -A 
+     2)git commit -m "root"
+     3)git push -u github master
+     4)push to github by giving username and password 
+     5)in the test settings  give the following commands to setup mocha nom instal and start mocha  
+      npm install mocha -g 
+      mocha
+             
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     create a new repository on the command line
          GIT hub instructions 
     echo # jobFinder >> README.md
