@@ -26,8 +26,8 @@ describe("get jobs", function() {
     before(function(done) {
         this.timeout(10000);
         
-        //jobsData.connectDB('mongodb://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
-        jobsData.connectDB('lllllll://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
+        jobsData.connectDB('mongodb://naveen:naveen@ds031571.mongolab.com:31571/jobfinder')
+        
             .then(resetJobs)
             .then(jobsData.seedJobs)
             .then(jobsData.findJobs)
